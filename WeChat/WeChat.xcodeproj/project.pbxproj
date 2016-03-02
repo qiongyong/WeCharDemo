@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1B86181C86DBD100A136B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B86171C86DBD100A136B7 /* main.m */; };
+		3F1B861B1C86DBD100A136B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B861A1C86DBD100A136B7 /* AppDelegate.m */; };
+		3F1B86211C86DBD100A136B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B861F1C86DBD100A136B7 /* Main.storyboard */; };
+		3F1B86231C86DBD100A136B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B86221C86DBD100A136B7 /* Assets.xcassets */; };
+		3F1B86261C86DBD100A136B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B86241C86DBD100A136B7 /* LaunchScreen.storyboard */; };
+		3F1B86551C86DFD900A136B7 /* JYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B86541C86DFD900A136B7 /* JYBaseViewController.m */; };
+		3F1B86581C86E00700A136B7 /* JYAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B86571C86E00700A136B7 /* JYAddressBookViewController.m */; };
+		3F1B865B1C86E04100A136B7 /* JYChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B865A1C86E04100A136B7 /* JYChatViewController.m */; };
+		3F1B865E1C86E05C00A136B7 /* JYFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B865D1C86E05C00A136B7 /* JYFoundViewController.m */; };
+		3F1B86611C86E07300A136B7 /* JYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B86601C86E07300A136B7 /* JYMeViewController.m */; };
+		3F1B86641C86E09E00A136B7 /* JYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B86631C86E09E00A136B7 /* JYTabBarController.m */; };
+		3FC62D331C86E2000086FAAA /* UIImage+JYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC62D321C86E2000086FAAA /* UIImage+JYImage.m */; };
+		3FC62D361C86F1640086FAAA /* JYPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC62D351C86F1640086FAAA /* JYPersonModel.m */; };
+		3FC62D391C8700F90086FAAA /* JYChangeAvaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC62D381C8700F90086FAAA /* JYChangeAvaterView.m */; };
+		3FC62D3C1C8709380086FAAA /* JYPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC62D3B1C8709380086FAAA /* JYPersonCell.m */; };
+		3FC62D3F1C87130A0086FAAA /* JYUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC62D3E1C87130A0086FAAA /* JYUserInfoManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1B86131C86DBD100A136B7 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1B86171C86DBD100A136B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F1B86191C86DBD100A136B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F1B861A1C86DBD100A136B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F1B86201C86DBD100A136B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1B86221C86DBD100A136B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1B86251C86DBD100A136B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1B86271C86DBD100A136B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1B86531C86DFD900A136B7 /* JYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYBaseViewController.h; sourceTree = "<group>"; };
+		3F1B86541C86DFD900A136B7 /* JYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYBaseViewController.m; sourceTree = "<group>"; };
+		3F1B86561C86E00700A136B7 /* JYAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYAddressBookViewController.h; sourceTree = "<group>"; };
+		3F1B86571C86E00700A136B7 /* JYAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYAddressBookViewController.m; sourceTree = "<group>"; };
+		3F1B86591C86E04100A136B7 /* JYChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYChatViewController.h; sourceTree = "<group>"; };
+		3F1B865A1C86E04100A136B7 /* JYChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYChatViewController.m; sourceTree = "<group>"; };
+		3F1B865C1C86E05C00A136B7 /* JYFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYFoundViewController.h; sourceTree = "<group>"; };
+		3F1B865D1C86E05C00A136B7 /* JYFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYFoundViewController.m; sourceTree = "<group>"; };
+		3F1B865F1C86E07300A136B7 /* JYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYMeViewController.h; sourceTree = "<group>"; };
+		3F1B86601C86E07300A136B7 /* JYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYMeViewController.m; sourceTree = "<group>"; };
+		3F1B86621C86E09E00A136B7 /* JYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTabBarController.h; sourceTree = "<group>"; };
+		3F1B86631C86E09E00A136B7 /* JYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTabBarController.m; sourceTree = "<group>"; };
+		3F1B86651C86E0B900A136B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3FC62D311C86E2000086FAAA /* UIImage+JYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYImage.h"; sourceTree = "<group>"; };
+		3FC62D321C86E2000086FAAA /* UIImage+JYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYImage.m"; sourceTree = "<group>"; };
+		3FC62D341C86F1640086FAAA /* JYPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPersonModel.h; sourceTree = "<group>"; };
+		3FC62D351C86F1640086FAAA /* JYPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPersonModel.m; sourceTree = "<group>"; };
+		3FC62D371C8700F90086FAAA /* JYChangeAvaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYChangeAvaterView.h; sourceTree = "<group>"; };
+		3FC62D381C8700F90086FAAA /* JYChangeAvaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYChangeAvaterView.m; sourceTree = "<group>"; };
+		3FC62D3A1C8709380086FAAA /* JYPersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPersonCell.h; sourceTree = "<group>"; };
+		3FC62D3B1C8709380086FAAA /* JYPersonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPersonCell.m; sourceTree = "<group>"; };
+		3FC62D3D1C87130A0086FAAA /* JYUserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYUserInfoManager.h; sourceTree = "<group>"; };
+		3FC62D3E1C87130A0086FAAA /* JYUserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYUserInfoManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1B86101C86DBD100A136B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1B860A1C86DBD100A136B7 = {
+			isa = PBXGroup;
+			children = (
+				3F1B86151C86DBD100A136B7 /* WeChat */,
+				3F1B86141C86DBD100A136B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1B86141C86DBD100A136B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86131C86DBD100A136B7 /* WeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1B86151C86DBD100A136B7 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86401C86DC7E00A136B7 /* Base */,
+				3F1B86411C86DC7E00A136B7 /* CodeClasss */,
+				3F1B86521C86DC7E00A136B7 /* Tools */,
+				3F1B86191C86DBD100A136B7 /* AppDelegate.h */,
+				3F1B861A1C86DBD100A136B7 /* AppDelegate.m */,
+				3F1B86221C86DBD100A136B7 /* Assets.xcassets */,
+				3F1B86161C86DBD100A136B7 /* Supporting Files */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		3F1B86161C86DBD100A136B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B861F1C86DBD100A136B7 /* Main.storyboard */,
+				3F1B86241C86DBD100A136B7 /* LaunchScreen.storyboard */,
+				3F1B86271C86DBD100A136B7 /* Info.plist */,
+				3F1B86171C86DBD100A136B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F1B86401C86DC7E00A136B7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86531C86DFD900A136B7 /* JYBaseViewController.h */,
+				3F1B86541C86DFD900A136B7 /* JYBaseViewController.m */,
+				3F1B86621C86E09E00A136B7 /* JYTabBarController.h */,
+				3F1B86631C86E09E00A136B7 /* JYTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3F1B86411C86DC7E00A136B7 /* CodeClasss */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86421C86DC7E00A136B7 /* Addressbook */,
+				3F1B86461C86DC7E00A136B7 /* Chat */,
+				3F1B864A1C86DC7E00A136B7 /* Found */,
+				3F1B864E1C86DC7E00A136B7 /* Me */,
+			);
+			path = CodeClasss;
+			sourceTree = "<group>";
+		};
+		3F1B86421C86DC7E00A136B7 /* Addressbook */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86431C86DC7E00A136B7 /* Controller */,
+				3F1B86441C86DC7E00A136B7 /* Model */,
+				3F1B86451C86DC7E00A136B7 /* View */,
+			);
+			path = Addressbook;
+			sourceTree = "<group>";
+		};
+		3F1B86431C86DC7E00A136B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86561C86E00700A136B7 /* JYAddressBookViewController.h */,
+				3F1B86571C86E00700A136B7 /* JYAddressBookViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F1B86441C86DC7E00A136B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1B86451C86DC7E00A136B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F1B86461C86DC7E00A136B7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86471C86DC7E00A136B7 /* Controller */,
+				3F1B86481C86DC7E00A136B7 /* Model */,
+				3F1B86491C86DC7E00A136B7 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		3F1B86471C86DC7E00A136B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86591C86E04100A136B7 /* JYChatViewController.h */,
+				3F1B865A1C86E04100A136B7 /* JYChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F1B86481C86DC7E00A136B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1B86491C86DC7E00A136B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F1B864A1C86DC7E00A136B7 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B864B1C86DC7E00A136B7 /* Controller */,
+				3F1B864C1C86DC7E00A136B7 /* Model */,
+				3F1B864D1C86DC7E00A136B7 /* View */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		3F1B864B1C86DC7E00A136B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B865C1C86E05C00A136B7 /* JYFoundViewController.h */,
+				3F1B865D1C86E05C00A136B7 /* JYFoundViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F1B864C1C86DC7E00A136B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1B864D1C86DC7E00A136B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F1B864E1C86DC7E00A136B7 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B864F1C86DC7E00A136B7 /* Controller */,
+				3F1B86501C86DC7E00A136B7 /* Model */,
+				3F1B86511C86DC7E00A136B7 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		3F1B864F1C86DC7E00A136B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B865F1C86E07300A136B7 /* JYMeViewController.h */,
+				3F1B86601C86E07300A136B7 /* JYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F1B86501C86DC7E00A136B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FC62D341C86F1640086FAAA /* JYPersonModel.h */,
+				3FC62D351C86F1640086FAAA /* JYPersonModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1B86511C86DC7E00A136B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FC62D371C8700F90086FAAA /* JYChangeAvaterView.h */,
+				3FC62D381C8700F90086FAAA /* JYChangeAvaterView.m */,
+				3FC62D3A1C8709380086FAAA /* JYPersonCell.h */,
+				3FC62D3B1C8709380086FAAA /* JYPersonCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F1B86521C86DC7E00A136B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B86651C86E0B900A136B7 /* PrefixHeader.pch */,
+				3FC62D311C86E2000086FAAA /* UIImage+JYImage.h */,
+				3FC62D321C86E2000086FAAA /* UIImage+JYImage.m */,
+				3FC62D3D1C87130A0086FAAA /* JYUserInfoManager.h */,
+				3FC62D3E1C87130A0086FAAA /* JYUserInfoManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1B86121C86DBD100A136B7 /* WeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1B862A1C86DBD100A136B7 /* Build configuration list for PBXNativeTarget "WeChat" */;
+			buildPhases = (
+				3F1B860F1C86DBD100A136B7 /* Sources */,
+				3F1B86101C86DBD100A136B7 /* Frameworks */,
+				3F1B86111C86DBD100A136B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChat;
+			productName = WeChat;
+			productReference = 3F1B86131C86DBD100A136B7 /* WeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1B860B1C86DBD100A136B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "叶建勇";
+				TargetAttributes = {
+					3F1B86121C86DBD100A136B7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F1B860E1C86DBD100A136B7 /* Build configuration list for PBXProject "WeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1B860A1C86DBD100A136B7;
+			productRefGroup = 3F1B86141C86DBD100A136B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1B86121C86DBD100A136B7 /* WeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1B86111C86DBD100A136B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B86261C86DBD100A136B7 /* LaunchScreen.storyboard in Resources */,
+				3F1B86231C86DBD100A136B7 /* Assets.xcassets in Resources */,
+				3F1B86211C86DBD100A136B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1B860F1C86DBD100A136B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B86611C86E07300A136B7 /* JYMeViewController.m in Sources */,
+				3F1B865E1C86E05C00A136B7 /* JYFoundViewController.m in Sources */,
+				3F1B86641C86E09E00A136B7 /* JYTabBarController.m in Sources */,
+				3F1B861B1C86DBD100A136B7 /* AppDelegate.m in Sources */,
+				3F1B86551C86DFD900A136B7 /* JYBaseViewController.m in Sources */,
+				3FC62D361C86F1640086FAAA /* JYPersonModel.m in Sources */,
+				3F1B86181C86DBD100A136B7 /* main.m in Sources */,
+				3F1B865B1C86E04100A136B7 /* JYChatViewController.m in Sources */,
+				3FC62D331C86E2000086FAAA /* UIImage+JYImage.m in Sources */,
+				3FC62D391C8700F90086FAAA /* JYChangeAvaterView.m in Sources */,
+				3F1B86581C86E00700A136B7 /* JYAddressBookViewController.m in Sources */,
+				3FC62D3F1C87130A0086FAAA /* JYUserInfoManager.m in Sources */,
+				3FC62D3C1C8709380086FAAA /* JYPersonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F1B861F1C86DBD100A136B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1B86201C86DBD100A136B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1B86241C86DBD100A136B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1B86251C86DBD100A136B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1B86281C86DBD100A136B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F1B86291C86DBD100A136B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1B862B1C86DBD100A136B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WeChat/Tools/PrefixHeader.pch;
+				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F1B862C1C86DBD100A136B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = WeChat/Tools/PrefixHeader.pch;
+				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kong.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1B860E1C86DBD100A136B7 /* Build configuration list for PBXProject "WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B86281C86DBD100A136B7 /* Debug */,
+				3F1B86291C86DBD100A136B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1B862A1C86DBD100A136B7 /* Build configuration list for PBXNativeTarget "WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B862B1C86DBD100A136B7 /* Debug */,
+				3F1B862C1C86DBD100A136B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1B860B1C86DBD100A136B7 /* Project object */;
+}
